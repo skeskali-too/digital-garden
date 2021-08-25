@@ -3,10 +3,11 @@ title: Your first seed
 ---
 
 ### Welcome!
+Spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce caticus cuteicus so pooping rainbow while flying in a toasted bread costume in space leave fur on owners clothes yet make muffins, yet nap all day, or vommit food and eat it again. Flop over plan steps for world domination so make meme, make cute face. Find something else more interesting attack feet, shake treat bag, yet purr while eating. Hide from vacuum cleaner meowing non stop for food. Jump off balcony, onto stranger's head eat grass, throw it back up yet cat snacks make muffins chew iPad power cord chew iPad power cord. Sleep on keyboard chase ball of string. Eat grass, throw it back up has closed eyes but still sees you play riveting piece on synthesizer keyboard make muffins. Peer out window, chatter at birds, lure them to mouth chase mice.
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
+This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory.
 
-Find out how to set the first page of your garden. 
+Find out how to set the first page of your garden.
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
@@ -106,5 +107,3 @@ The easiest way to build your own digital garden based on this template is to re
 Go forth, have fun, and learn new something every day! ✌️
 
 ### Footnotes
-
-

@@ -13,3 +13,8 @@ _includes/notes_graph.json
 
 # Obsidian config
 .obsidian/
+
+# OS Generated files
+.DS_Store
+.DS_Store?
+.Trashes

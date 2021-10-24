@@ -20,4 +20,4 @@ _includes/notes_graph.json
 .Trashes
 
 # Nova Config
-.nova/Configuration.json
+#.nova/Configuration.json

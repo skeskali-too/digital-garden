@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 👋🏾 Welcome
+title: Home
 id: home
 permalink: /
 ---
@@ -8,24 +8,26 @@ permalink: /
 # Welcome! 🌱
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[How to Think]] </span> to get started on your exploration.
+  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
 </p>
 
-My name is Cecily Walker ([email][1], [Twitter][2] 🔏, [my personal site][3]). This is an experiment in personal knowledge management. I was heavily inspired by [Chiara's Digital Garden][4] and [Andy's working notes][5].
+This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch][6]. If you need any help, my [DMs are open on Twitter (@vaillancourtmax)][7]. 👋
+The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
 
-This is a test to see which file I'm working with on Netlify.
+<strong>Recently updated notes</strong>
+
+<ul>
+  {% assign recent_notes = site.notes | sort: "last_modified_at_timestamp" | reverse %}
+  {% for note in recent_notes limit: 5 %}
+    <li>
+      {{ note.last_modified_at | date: "%Y-%m-%d" }} — <a class="internal-link" href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 <style>
   .wrapper {
     max-width: 46em;
   }
 </style>
-
-[1]:	6wjonkplb@relay.firefox.com
-[2]:	https://twitter.com/skeskali/
-[3]:	cecily.info
-[4]:	https://www.craft.do/s/ByjupAMfZgN6dW
-[5]:	https://notes.andymatuschak.org/About_these_notes
-[6]:	https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll
-[7]:	https://twitter.com/vaillancourtmax

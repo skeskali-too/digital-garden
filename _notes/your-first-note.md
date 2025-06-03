@@ -1,5 +1,7 @@
 ---
 title: Your first seed
+dg-home: true
+dg-publish: true
 ---
 
 ### Welcome!

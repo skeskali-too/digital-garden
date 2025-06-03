@@ -1,6 +1,6 @@
 ---
 title: Photography
-dg-publish: false
+dg-publish: true
 ---
 
 This is a placeholder file for a page I want to use for photography topics. Some topics might include: 

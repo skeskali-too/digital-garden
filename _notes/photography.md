@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: page                   
 title: Photography
+id: Photography
 
 ---
 
